@@ -1,0 +1,6 @@
+Bootstrap-Flask==2.4.0
+Flask==3.0.3
+pillow~=10.4.0
+numpy~=2.0.1
+matplotlib~=3.9.2
+scikit-learn~=1.5.1
