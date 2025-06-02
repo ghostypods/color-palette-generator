@@ -6,7 +6,6 @@ from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 import os
 
-# -------------------------------- DON'T FORGET ABOUT THE SECRET KEY!!! --------------------------------
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get('FLASK_KEY')
 Bootstrap5(app)
